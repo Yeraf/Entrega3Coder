@@ -102,4 +102,10 @@ function reiniciarJuego() {
     contenedorPuntosPC.innerText = puntosPC;
 
     instrucciones.innerText = "El primero en llegar a 5 puntos gana.";
+
+    Swal.fire({
+        title: "PIEDRA-PAPEL-TIJERA",
+        text: "Intenta ganarle a la Computadora",
+        icon: "success"
+      });
 }
